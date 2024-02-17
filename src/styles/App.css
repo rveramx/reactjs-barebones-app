@@ -25,3 +25,22 @@
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spinner, .dog-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.dog-image {
+  padding: 4rem;
+  width: 400px;
+  height: 200px;
+}
