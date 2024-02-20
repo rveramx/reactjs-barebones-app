@@ -1,14 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import ThemedButton from "../components/ThemedButton";
 
 const HomePage: React.FC = () => (
   <div className="home-page">
-    <Header />
-    <main>
-      <p>This is the content of the homepage.</p>
-    </main>
-    <Footer />
+    <p>This is a themed button: </p>
+    <ThemedButton />
   </div>
 );
 
